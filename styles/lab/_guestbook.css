@@ -1,0 +1,107 @@
+/* Guestbook */
+.guestbook {
+  background: var(--lab-bg-dark);
+  border: 1px solid var(--lab-accent);
+  border-radius: var(--border-radius-lg);
+  padding: var(--space-8);
+  margin-top: var(--space-8);
+}
+
+@media (max-width: 767px) {
+  .guestbook {
+    padding: var(--space-4); /* Adjust padding for mobile */
+    margin-top: var(--space-4); /* Adjust margin for mobile */
+  }
+
+  .guestbook-title {
+    font-size: var(--font-size-xl); /* Smaller font for mobile */
+    margin-bottom: var(--space-4); /* Adjust margin for mobile */
+  }
+
+  .guestbook-input,
+  .guestbook-textarea {
+    font-size: var(--font-size-xs); /* Smaller font for inputs */
+    padding: var(--space-2); /* Adjust padding for inputs */
+  }
+
+  .guestbook-messages {
+    max-height: 200px; /* Adjust max height for messages */
+  }
+
+  .guestbook-message {
+    padding: var(--space-2); /* Adjust padding for messages */
+  }
+
+  .message-author,
+  .message-date {
+    font-size: var(--font-size-xxs); /* Smaller font for author/date */
+  }
+
+  .message-content {
+    font-size: var(--font-size-xs); /* Smaller font for content */
+  }
+}
+
+.guestbook-title {
+  font-size: var(--font-size-2xl);
+  color: var(--lab-accent);
+  margin-bottom: var(--space-6);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.guestbook-form {
+  display: grid;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.guestbook-input,
+.guestbook-textarea {
+  background: var(--lab-bg);
+  border: 1px solid var(--lab-text-dim);
+  color: var(--lab-text);
+  padding: var(--space-3);
+  border-radius: var(--border-radius);
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-sm);
+}
+
+.guestbook-input:focus,
+.guestbook-textarea:focus {
+  outline: none;
+  border-color: var(--lab-accent);
+  box-shadow: 0 0 10px rgba(255, 171, 0, 0.3);
+}
+
+.guestbook-messages {
+  max-height: 300px;
+  overflow-y: auto;
+  border-top: 1px solid var(--lab-text-dim);
+  padding-top: var(--space-4);
+}
+
+.guestbook-message {
+  background: var(--lab-bg);
+  padding: var(--space-3);
+  border-radius: var(--border-radius);
+  margin-bottom: var(--space-3);
+  border-left: 3px solid var(--lab-accent);
+}
+
+.message-author {
+  color: var(--lab-accent);
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+}
+
+.message-date {
+  color: var(--lab-text-dim);
+  font-size: var(--font-size-xs);
+  margin-left: var(--space-2);
+}
+
+.message-content {
+  color: var(--lab-text);
+  margin-top: var(--space-2);
+}

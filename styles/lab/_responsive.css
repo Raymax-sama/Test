@@ -1,0 +1,59 @@
+/* Responsive Lab */
+/* Mobile-first base styles go here (default styles) */
+
+/* Small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+  .lab-intro {
+    padding: var(--space-8) var(--space-4); /* Plus de padding vertical, moins horizontal */
+    text-align: center;
+  }
+
+  .lab-title {
+    font-size: var(--font-size-3xl); /* Taille de police plus petite pour les titres */
+  }
+
+  .lab-description {
+    font-size: var(--font-size-base); /* Taille de police de base pour les descriptions */
+  }
+
+  .lab-ascii {
+    display: none; /* Hide ASCII art on mobile */
+  }
+
+
+  .lab-actions {
+    display: flex;
+    flex-direction: row; /* Buttons in a row layout */
+    justify-content: center; /* Center buttons horizontally */
+    gap: var(--space-2); /* Add some space between buttons */
+  }
+
+  .lab-btn {
+    width: auto !important; /* Allow buttons to size naturally and override other styles */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .lab-title {
+    font-size: var(--font-size-4xl);
+  }
+  
+  .lab-ascii {
+    font-size: var(--font-size-xs);
+  }
+  
+  .lab-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Add specific desktop styles here if needed */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Add specific extra large desktop styles here if needed */
+}

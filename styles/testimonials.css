@@ -1,0 +1,106 @@
+/* Testimonials Section */
+.testimonials-carousel {
+    overflow: hidden;
+    position: relative;
+    padding: var(--space-8) 0;
+}
+
+.testimonials-track {
+    display: flex;
+    gap: var(--space-8);
+    padding-bottom: var(--space-4);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Firefox */
+}
+
+.testimonials-track::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+}
+
+.testimonial-card {
+    flex: 0 0 auto;
+    width: 300px; /* Adjust as needed */
+    scroll-snap-align: start;
+    background: var(--current-bg);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.testimonial-content {
+    margin-bottom: var(--space-4);
+}
+
+.testimonial-rating {
+    color: var(--current-secondary);
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-2);
+}
+
+.testimonial-quote {
+    font-size: var(--font-size-lg);
+    font-style: italic;
+    color: var(--current-text);
+    line-height: 1.6;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: var(--space-4);
+}
+
+.author-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: var(--space-4);
+    border: 2px solid var(--current-primary);
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: 600;
+    color: var(--current-primary);
+    font-size: var(--font-size-lg);
+}
+
+.author-role,
+.author-company {
+    font-size: var(--font-size-sm);
+    color: var(--current-text-light);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .testimonials-track {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .testimonial-card {
+        width: 280px; /* Smaller cards on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-card {
+        width: 250px; /* Even smaller cards on very small screens */
+    }
+}

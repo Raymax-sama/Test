@@ -1,0 +1,157 @@
+{
+  "home": {
+    "greeting": "BIENVENUE DANS MON LABO SECRET",
+    "title": "Mode_Lab.exe",
+    "description": "Ici, je partage mes expérimentations, mes passions geek et mes découvertes créatives. Un espace où code et créativité se rencontrent.",
+    "ascii": "    ░██╗░░░░░░░██╗███████╗██╗░░░░░░█████╗░░█████╗░███╗░░░███╗███████╗\n    ░██║░░██╗░░██║██╔════╝██║░░░░░██╔══██╗██╔══██╗████╗░████║██╔════╝\n    ░╚██╗████╗██╔╝█████╗░░██║░░░░░██║░░╚═╝██║░░██║██╔████╔██║█████╗░░\n    ░░████╔═████║░██╔══╝░░██║░░░░░██║░░██╗██║░░██║██║╚██╔╝██║██╔══╝░░\n    ░░╚██╔╝░╚██╔╝░███████╗███████╗╚█████╔╝╚█████╔╝██║░╚═╝░██║███████╗\n    ░░░╚═╝░░░╚═╝░░╚══════╝╚══════╝░╚════╝░░╚════╝░╚═╝░░░░░╚═╝╚══════╝"
+  },
+  "passions": {
+    "title": "MES PASSIONS",
+    "items": [
+      {
+        "title": "Création de Jeux & Mini-Jeux",
+        "description": "Conception et développement de jeux, du concept à la réalisation, avec un focus sur l'expérimentation et le fun.",
+        "icon": "fas fa-gamepad",
+        "details": ["Unity", "Godot", "JavaScript", "Game Design"]
+      },
+      {
+        "title": "Intelligence Artificielle (Expérimentation)",
+        "description": "Exploration pratique de l'IA, création de petits programmes et expérimentations simples pour comprendre ses mécanismes.",
+        "icon": "fas fa-brain",
+        "details": ["Python", "TensorFlow Lite", "Traitement du langage naturel", "Vision par ordinateur"]
+      },
+      {
+        "title": "Écriture Créative",
+        "description": "Exprimer des idées, des histoires et des réflexions à travers l'écriture, un moyen de consolider mes émotions et ma pensée.",
+        "icon": "fas fa-pencil-alt",
+        "details": ["Nouvelles", "Poésie", "Réflexions personnelles", "Scénarios"]
+      },
+      {
+        "title": "Musique (Composition & Pratique)",
+        "description": "Jouer de la musique, composer des morceaux et explorer différents genres, une passion qui va au-delà de l'écran.",
+        "icon": "fas fa-music",
+        "details": ["Guitare", "Piano", "Composition assistée par ordinateur", "Production musicale"]
+      },
+      {
+        "title": "Exploration & Découverte",
+        "description": "La curiosité est mon moteur. J'aime chercher, trouver, expérimenter et découvrir de nouvelles choses, qu'elles soient techniques ou humaines.",
+        "icon": "fas fa-search",
+        "details": ["Nouvelles technologies", "Philosophie", "Psychologie", "Voyages virtuels"]
+      }
+    ]
+  },
+  "tools": {
+    "title": "MES OUTILS DE LAB",
+    "items": [
+      {
+        "title": "Mon PC de Travail",
+        "description": "Ma station de combat principale pour le développement, le design et l'expérimentation.",
+        "icon": "fas fa-laptop-code",
+        "specs": ["Windows 11", "Intel Core i7", "32GB RAM", "NVIDIA RTX 3070"]
+      },
+      {
+        "title": "Cahiers et Carnets",
+        "description": "Pour le brainstorming, les croquis, la prise de notes et la conceptualisation de mes idées.",
+        "icon": "fas fa-book",
+        "specs": ["Carnets de croquis", "Cahiers de notes", "Stylos techniques"]
+      },
+      {
+        "title": "Logiciels de Dessin Digital",
+        "description": "Pour l'illustration, le concept art et la création de textures pour mes projets.",
+        "icon": "fas fa-paint-brush",
+        "specs": ["Krita", "GIMP", "Inkscape"]
+      },
+      {
+        "title": "Logiciels de Modélisation 3D",
+        "description": "Apprentissage et pratique de la modélisation 3D pour la création d'assets de jeux et d'environnements.",
+        "icon": "fas fa-cube",
+        "specs": ["Blender", "MagicaVoxel"]
+      },
+      {
+        "title": "Moteurs de Jeux & Environnements de Dev",
+        "description": "Les plateformes sur lesquelles je construis et teste mes jeux et mini-jeux.",
+        "icon": "fas fa-gamepad",
+        "specs": ["Godot Engine", "Unity", "VS Code", "Node.js"]
+      }
+    ]
+  },
+  "experiments": {
+    "title": "EXPÉRIMENTATIONS",
+    "items": [
+      {
+        "id": "game-dev-framework",
+        "title": "Framework de Développement de Mini-Jeux",
+        "date": "2024-07-20",
+        "description": "Création d'un micro-framework JavaScript pour prototyper rapidement des mini-jeux web interactifs.",
+        "technologies": ["JavaScript", "HTML5 Canvas", "CSS3"],
+        "status": "En cours",
+        "link": "#"
+      },
+      {
+        "id": "simple-ai-chatbot",
+        "title": "Chatbot IA Minimaliste",
+        "date": "2024-06-10",
+        "description": "Développement d'un chatbot basé sur des règles simples et l'apprentissage supervisé pour des interactions basiques.",
+        "technologies": ["Python", "NLTK", "Scikit-learn"],
+        "status": "Terminé",
+        "link": "#"
+      },
+      {
+        "id": "procedural-art-gen",
+        "title": "Générateur d'Art Procédural",
+        "date": "2024-05-01",
+        "description": "Exploration des algorithmes de génération procédurale pour créer des visuels abstraits et des motifs complexes.",
+        "technologies": ["Processing", "P5.js", "GLSL"],
+        "status": "Prototype",
+        "link": "#"
+      },
+      {
+        "id": "music-visualizer",
+        "title": "Visualiseur Musical Interactif",
+        "date": "2024-04-15",
+        "description": "Application web qui génère des visualisations dynamiques en temps réel basées sur l'analyse audio.",
+        "technologies": ["Web Audio API", "Three.js", "React"],
+        "status": "En cours",
+        "link": "#"
+      }
+    ]
+  },
+  "templates": {
+    "title": "TEMPLATES LAB",
+    "description": "Mes créations UI/UX expérimentales avec variations aléatoires",
+    "items": [
+      {
+        "id": "neon-dashboard",
+        "title": "Neon Dashboard",
+        "type": "Interface Cyberpunk",
+        "description": "Dashboard futuriste avec effets néon et animations cyberpunk",
+        "colors": ["#ff4081", "#00e676", "#ffab00"],
+        "technologies": ["CSS Grid", "SVG Animations", "WebGL"]
+      },
+      {
+        "id": "retro-terminal",
+        "title": "Retro Terminal UI",
+        "type": "Interface Vintage",
+        "description": "Interface terminal style années 80 avec effets CRT",
+        "colors": ["#00ff00", "#ffff00", "#ff00ff"],
+        "technologies": ["CSS Filters", "Monospace", "Animations"]
+      },
+      {
+        "id": "glitch-portfolio",
+        "title": "Glitch Portfolio",
+        "type": "Portfolio Artistique",
+        "description": "Portfolio avec effets glitch et esthétique digitale",
+        "colors": ["#ff0080", "#0080ff", "#80ff00"],
+        "technologies": ["CSS Transforms", "JavaScript", "Canvas"]
+      }
+    ]
+  },
+  "guestbook": {
+    "title": "LIVRE D'OR",
+    "description": "Laissez un message dans mon labo !",
+    "placeholder": {
+      "name": "Votre nom de code...",
+      "message": "Votre message crypté..."
+    }
+  }
+}

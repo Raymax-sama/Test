@@ -1,0 +1,351 @@
+{
+  "home": {
+    "greeting": "Bonjour, je suis",
+    "name": "Roméo Habib Yoguelim",
+    "title": "Intégrateur WordPress & Automatisation IA",
+    "subtitle": "Expert en sites sur-mesure, performance et sécurité",
+    "description": "Je crée et optimise des sites WordPress modernes avec Elementor Pro et ACF, j’intègre des workflows IA/automatisation, et je veille à la performance et à la sécurité front-end.",
+    "photo": "/assets/img/logoRaymaxsama.png",
+    "badges": ["WordPress Specialist", "IA & Automatisation", "Sécurité Front-end"],
+    "cta": {
+      "primary": "Voir mes projets",
+      "secondary": "Me contacter"
+    }
+  },
+  "stats": {
+    "title": "Chiffres clés",
+    "items": [
+      { "number": "10+",  "label": "Projets majeurs" },
+      { "number": "3",   "label": "Années d’expérience" },
+      { "number": "100%", "label": "Livraison garantie" }
+    ]
+  },
+  "about": {
+  "title": "Qui suis-je ?",
+  "description": "Freelance basé à Casablanca, j’allie rigueur technique et créativité pour offrir des solutions web à forte valeur ajoutée.",
+  "photo": "/assets/img/profile.jpg",
+  "bio": "Passionné par WordPress depuis 2 ans, j’ai accompagné des PME dans le e-commerce, la santé et la gestion d’entreprise. Toujours curieux, j’explore l’IA et l’automatisation pour optimiser chaque projet.",
+  "timeline": [
+    { "year": "2019", "title": "Baccalauréat Scientifique", "description": "Lycée Madiba Mandela" },
+    { "year": "2020", "title": "Cycle Ingénieur en Intelligence Artificielle", "description": "UEMF — apprentissage en machine learning et vision par ordinateur" },
+    { "year": "2023", "title": "Freelance Web & IA", "description": "Lancement d’activité indépendante" }
+  ],
+  "values": [
+    { "title": "Autonomie", "description": "Je livre des solutions clés en main" },
+    { "title": "Performance", "description": "Sites rapides et optimisés SEO" },
+    { "title": "Sécurité", "description": "Front-end durci et bonnes pratiques" },
+    { "title": "Innovation", "description": "IA et automatisation intégrées" }
+  ],
+  "skills": [
+    {
+      "category": "WordPress & CMS",
+      "items": [
+        "Elementor Pro",
+        "ACF",
+        "WooCommerce",
+        "CPT UI",
+        "WP Rocket",
+        "Optimisation SEO",
+        "Sécurité WordPress",
+        "Maintenance & migration"
+      ]
+    },
+    {
+      "category": "Front-end",
+      "items": [
+        "HTML5",
+        "CSS3",
+        "JavaScript (ES6+)",
+        "Responsive Design",
+        "UX/UI",
+        "Animations Web (GSAP)",
+        "SEO technique",
+        "Accessibilité"
+      ]
+    },
+    {
+      "category": "Automatisation & IA",
+      "items": [
+        "n8n",
+        "Zapier",
+        "OpenAI API",
+        "Python (scripts, automatisation)",
+        "LangChain",
+        "TensorFlow",
+        "Automatisation Email / WhatsApp"
+      ]
+    },
+    {
+      "category": "Back-end",
+      "items": [
+        "PHP (WordPress)",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "Python (Flask, FastAPI)",
+        "API REST",
+        "Webhooks & intégrations"
+      ]
+    },
+    {
+      "category": "Sécurité & DevOps",
+      "items": [
+        "Git / GitHub",
+        "Netlify / Vercel",
+        "cPanel / FTP",
+        "SSL / HTTPS",
+        "Audit front-end",
+        "Captcha / Anti-SPAM",
+        "Surveillance & alertes"
+      ]
+    }
+  ]
+},
+  "services": {
+    "title": "Mes services",
+    "description": "Je transforme vos idées en expériences web performantes et durables.",
+    "items": [
+      {
+        "icon": "fab fa-wordpress",
+        "title": "Développement WordPress sur mesure",
+        "description": "Création de sites vitrines et e-commerce rapides, optimisés et élégants.",
+        "features": [
+          "Elementor Pro & ACF",
+          "WooCommerce",
+          "SEO technique intégré",
+          "Performances garanties"
+        ]
+      },
+      {
+        "icon": "fas fa-robot",
+        "title": "Automatisation & IA appliquée",
+        "description": "Intégration d’IA et de workflows pour gagner du temps et améliorer vos services.",
+        "features": [
+          "Chatbots & NLP",
+          "Automatisation d’emails",
+          "Analyse de données",
+          "Prototypes intelligents"
+        ]
+      },
+      {
+        "icon": "fas fa-tachometer-alt",
+        "title": "Optimisation & Expérience Utilisateur",
+        "description": "Amélioration de la vitesse, de la compatibilité mobile et de l’accessibilité.",
+        "features": [
+          "Optimisation Core Web Vitals",
+          "Responsive Design",
+          "SEO on-page",
+          "Maintenance continue"
+        ]
+      }
+    ],
+    "pricing": { 
+      "title": "Tarifs indicatifs", 
+      "description": "Des solutions adaptées à tous les budgets. Les prix sont donnés à titre indicatif et peuvent être ajustés selon vos besoins.", 
+      "items": [ 
+        { 
+          "name": "Pack Vitrine", 
+          "price": "À partir de 1000dh", 
+          "features": [ 
+            "Site vitrine WordPress 1 à 5 pages", 
+            "Design responsive avec Elementor Pro", 
+            "Formulaire de contact", 
+            "Optimisation SEO de base" 
+          ] 
+        }, 
+        { 
+          "name": "Pack E-commerce", 
+          "price": "À partir de 2000dh", 
+          "features": [ 
+            "Boutique WooCommerce complète", 
+            "Gestion des produits et paiements sécurisés", 
+            "Optimisation performance et SEO", 
+            "Formation prise en main" 
+          ] 
+        }, 
+        { 
+          "name": "Pack Automatisation & IA", 
+          "price": "À partir de 2000dh", 
+          "features": [ 
+            "Mise en place de workflows automatisés", 
+            "Intégration chatbot IA ", 
+            "Automatisation e-mails et CRM", 
+            "Analyse de données" 
+          ] 
+        } 
+      ], 
+      "note": "💬 Les tarifs sont négociables en fonction de la complexité et du budget du projet." 
+    }
+  },
+  "projects": {
+    "title": "Projets phares",
+    "description": "Découvrez mes trois réalisations les plus abouties",
+    "items": [
+      {
+        "id": "dabablane",
+        "title": "DabaBlane",
+        "category": "Web",
+        "description": "Marketplace multi-commerçants WordPress avec réservation dynamique, dashboard vendeur et SEO avancé.",
+        "description_complete": "DabaBlane est une plateforme e-commerce conçue pour réunir plusieurs commerçants autour d’un système de réservation dynamique. J’ai entièrement conçu le site sous WordPress avec Elementor Pro et ACF, en créant des modèles de fiches produits sur mesure et un tableau de bord vendeur ergonomique. J’ai également mis en place des automatisations via n8n pour la gestion des confirmations, des emails et des tâches redondantes. Un travail important a été réalisé sur l’optimisation SEO et les performances du site, en collaboration avec l’équipe projet.",
+        "image": "/assets/img/Dabablane.png",
+        "tags": ["WordPress","Elementor Pro","ACF","SEO"],
+        "demoUrl": "https://dabablane.com",
+        "featured": true
+      },
+      {
+        "id": "dermaxexpert",
+        "title": "DermaxExpert",
+        "category": "Web",
+        "description": "Site vitrine pour clinique dermatologique, design épuré, tunnel de contact optimisé et intégration WhatsApp.",
+        "description_complete": "Pour DermaxExpert, j’ai conçu un site WordPress élégant et responsive, mettant en avant l’image haut de gamme de la clinique. Le design a été pensé pour rassurer les patients, avec un parcours utilisateur simple et efficace. Un tunnel de contact avec intégration WhatsApp a été mis en place pour maximiser les conversions, ainsi qu’un formulaire dynamique pour filtrer les demandes. Le site a été optimisé pour les appareils mobiles et la rapidité d’affichage.",
+        "image": "/assets/img/Dermax.png",
+        "tags": ["WordPress","Elementor","Responsive"],
+        "demoUrl": "https://dermaxexpert.com",
+        "featured": true
+      },
+      {
+        "id": "successcenter",
+        "title": "Success Center",
+        "category": "Web",
+        "description": "Refonte UX/UI et SEO d’un site corporate d’intégration Sage, accès mobile et performance améliorés.",
+        "description_complete": "Success Center souhaitait une vitrine professionnelle reflétant son expertise en intégration Sage 100cloud. J’ai repris toute la structure UX du site, modernisé le design via Elementor, réécrit les textes avec un regard SEO, et assuré la compatibilité mobile/tablette. J’ai également pris en charge l’optimisation des performances (images, cache, structure HTML), et mis en place les balises structurées. L’objectif était clair : crédibilité, clarté et impact.",
+        "image": "/assets/img/Succescenter.png",
+        "tags": ["WordPress","Elementor","SEO","Accessibilité"],
+        "demoUrl": "https://success-center.net",
+        "featured": true
+      },
+      {
+        "id": "site-educatif-kappa",
+        "title": "Kappa Academy",
+        "category": "Web",
+        "description": "Plateforme éducative moderne et responsive.",
+        "description_complete": "Création d’une plateforme pédagogique complète avec espace cours, profils enseignants et actualités. Optimisée pour mobile et conçue pour offrir une expérience fluide aux étudiants comme aux enseignants.",
+        "image": "/assets/img/site-educatif-kappa.png",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+        "link": "https://site-educatif-kappa.vercel.app/",
+        "featured": false
+      },
+      {
+        "id": "site-educatif1",
+        "title": "EduPro Connect",
+        "category": "Web",
+        "description": "Vitrine digitale pour établissements scolaires.",
+        "description_complete": "Développement d’un site clair et institutionnel pour présenter programmes, équipe pédagogique et activités. Design épuré et responsive.",
+        "image": "/assets/img/site-educatif1.png",
+        "tags": ["HTML5", "CSS3", "JavaScript"],
+        "link": "https://site-educatif1.vercel.app/",
+        "featured": false
+      },
+      {
+        "id": "site-beauty2",
+        "title": "Élégance Spa",
+        "category": "Web",
+        "description": "Site premium pour salon de beauté et spa.",
+        "description_complete": "Conception d’un site élégant et apaisant pour présenter les soins, massages et prestations haut de gamme, avec prise de rendez-vous en ligne.",
+        "image": "/assets/img/site-beauty2.png",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Booking System"],
+        "link": "https://site-beauty2.vercel.app/",
+        "featured": true
+      },
+      {
+        "id": "site-beauty1",
+        "title": "Glow Beauty",
+        "category": "Web",
+        "description": "Vitrine moderne pour institut de beauté.",
+        "description_complete": "Développement d’un site esthétique et immersif pour un institut de beauté, intégrant galeries photos et fiches prestations.",
+        "image": "/assets/img/site-beauty1.png",
+        "tags": ["HTML5", "CSS3", "JavaScript"],
+        "link": "https://site-beauty1.vercel.app/",
+        "featured": false
+      },
+      {
+        "id": "site-educatif2",
+        "title": "Pixelearn Academy",
+        "category": "Web",
+        "description": "Plateforme éducative spécialisée en informatique.",
+        "description_complete": "Site dynamique et interactif dédié à la formation en informatique et culture geek. Intègre des sections tutoriels, événements et quiz interactifs.",
+        "image": "/assets/img/site-educatif2.png",
+        "tags": ["HTML5", "CSS3", "JavaScript"],
+        "link": "https://site-educatif2.vercel.app/",
+        "featured": true
+      },
+      {
+        "id": "site-medical2",
+        "title": "Santé+ Clinic",
+        "category": "Web",
+        "description": "Vitrine rassurante pour centre médical.",
+        "description_complete": "Création d’un site clair et rassurant pour un centre médical, avec présentation des spécialités, des médecins et formulaire de prise de rendez-vous.",
+        "image": "/assets/img/site-medical2.png",
+        "tags": ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+        "link": "https://site-medical2.vercel.app/",
+        "featured": false
+      },
+      {
+        "id": "site-medical",
+        "title": "Dr Alaoui Médical",
+        "category": "Web",
+        "description": "Vitrine premium pour clinique médicale.",
+        "description_complete": "Site professionnel et moderne pour clinique médicale, intégrant informations patients et galerie des installations.",
+        "image": "/assets/img/site-medical.png",
+        "tags": ["HTML5", "CSS3", "JavaScript"],
+        "link": "https://site-medical.vercel.app/",
+        "featured": false
+      },
+      {
+        "id": "site-beauty3",
+        "title": "Hair & Style",
+        "category": "Web",
+        "description": "Site moderne pour salon de coiffure.",
+        "description_complete": "Création d’un site attractif pour salon de coiffure, présentant coupes, colorations et prestations avec galerie photo et informations pratiques.",
+        "image": "/assets/img/site-beauty3.png",
+        "tags": ["HTML5", "CSS3", "JavaScript"],
+        "link": "https://site-beauty3.vercel.app/",
+        "featured": false
+      }
+    ]
+  },
+  
+  "testimonials": {
+    "title": "Témoignages",
+    "description": "Le retour de mes clients après nos collaborations",
+    "items": [
+      {
+        "name": "Mr Hamza, Fondateur de DabaBlane",
+        "content": "Roméo a su transformer un cahier des charges complexe en une marketplace performante et intuitive.",
+        "photo": "/assets/img/2.png"
+      },
+      {
+        "name": "Gérant, Clinique Dermax",
+        "content": "Le site est exactement ce que nous souhaitions : rapide, esthétique et facile à administrer.",
+        "photo": "/assets/img/1.png"
+      },
+      {
+        "name": "Responsable Communication, Success Center",
+        "content": "Grâce à la refonte menée par Roméo, notre site corporate est plus moderne, mieux référencé et adapté au mobile.",
+        "photo": "/assets/img/3.png"
+      },
+      {
+        "name": "Mme Leïla, Consultante Marketing",
+        "content": "Roméo a parfaitement compris nos besoins et a livré un site performant qui met en valeur notre image de marque.",
+        "photo": "/assets/img/4.png"
+      }
+
+
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Prêt à lancer votre projet ? Échangeons ensemble",
+    "info": {
+      "email": "yoguelim.romeohabib@gmail.com",
+      "phone": "+212761861193",
+      "location": "Casablanca, Maroc"
+    },
+    "social": [
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/yoguelim-romeoh/", "icon": "fab fa-linkedin" },
+      { "platform": "GitHub",   "url": "https://github.com/raymaxsama", "icon": "fab fa-github" },
+      { "platform": "WhatsApp", "url": "https://wa.me/212761861193", "icon": "fab fa-whatsapp" }
+    ]
+
+  }
+}

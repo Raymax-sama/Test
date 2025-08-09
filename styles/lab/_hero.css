@@ -1,0 +1,94 @@
+/* Lab Hero */
+.lab-hero {
+  min-height: 100vh;
+  background: var(--lab-bg);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  padding: var(--space-8) var(--space-4); /* Add padding for smaller screens */
+}
+
+@media (max-width: 767px) {
+  .lab-hero {
+    min-height: 80vh; /* Adjust height for mobile */
+  }
+
+  .lab-greeting {
+    font-size: var(--font-size-md); /* Smaller font for mobile */
+  }
+
+  .lab-title {
+    font-size: var(--font-size-3xl); /* Smaller font for mobile */
+  }
+
+  .lab-description {
+    font-size: var(--font-size-md); /* Smaller font for mobile */
+    max-width: 90%; /* Adjust max-width for mobile */
+  }
+
+  .lab-ascii {
+    font-size: 8px; /* Even smaller ASCII art for mobile */
+  }
+}
+
+.lab-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, var(--lab-primary) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, var(--lab-secondary) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, var(--lab-accent) 0%, transparent 50%);
+  opacity: 0.1;
+  animation: pulseGradient 8s ease-in-out infinite;
+}
+
+.lab-intro {
+  text-align: center;
+  z-index: 2;
+}
+
+.lab-greeting {
+  font-size: var(--font-size-lg);
+  color: var(--lab-secondary);
+  margin-bottom: var(--space-4);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  animation: glitch 2s infinite;
+}
+
+.lab-title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-6);
+  background: linear-gradient(45deg, var(--lab-primary), var(--lab-secondary), var(--lab-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 300% 300%;
+  animation: gradientShift 3s ease infinite;
+}
+
+.lab-description {
+  font-size: var(--font-size-lg);
+  color: var(--lab-secondary);
+  margin-bottom: var(--space-8);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lab-ascii {
+  font-family: var(--font-family-mono);
+  font-size: 10px;
+  color: var(--lab-primary);
+  white-space: pre;
+  margin: var(--space-8) 0;
+  opacity: 0.7;
+  line-height: 1;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Pro | Développeur Web & Designer</title>
+    <meta name="description" content="Portfolio professionnel - Services WordPress, IA, sécurité web. Projets créatifs et solutions techniques innovantes.">
+    
+    <!-- Inter Variable Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/pro.css">
+    <link rel="stylesheet" href="styles/lab.css">
+    <link rel="stylesheet" href="css/notification.css">
+    <link rel="stylesheet" href="styles/testimonials.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/projects-modal.css">
+    
+    <!-- Mobile Redesign Styles -->
+    <link rel="stylesheet" href="styles/mobile-redesign.css">
+    <link rel="stylesheet" href="styles/mobile-sections.css">
+    <link rel="stylesheet" href="styles/mobile-interactions.css">
+    <link rel="stylesheet" href="styles/mobile-restructure.css">
+    <link rel="stylesheet" href="styles/mobile-layout-improvements.css">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader" class="loader">
+        <div class="loader-spinner"></div>
+        <p>Chargement...</p>
+    </div>
+
+    <!-- Mini Terminal Trigger -->
+    <div id="terminal-trigger" class="terminal-trigger" title="Terminal secret">
+        <i class="fas fa-terminal"></i>
+    </div>
+
+    <!-- Mini Terminal -->
+    <div id="mini-terminal" class="mini-terminal hidden">
+        <div class="terminal-header">
+            <span>Terminal</span>
+            <button id="close-terminal" class="close-btn">&times;</button>
+        </div>
+        <div class="terminal-body">
+            <div class="terminal-line">
+                <span class="prompt">$</span>
+                <input type="text" id="terminal-input" placeholder="Tapez 'raymaxsama' pour accéder au lab...">
+            </div>
+            <div id="terminal-output"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="#home" id="logo-link">
+                    <span >Portfolio</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+
+                <li><a href="#testimonials" class="nav-link">Témoignages</a></li>
+
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Menu mobile">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content container">
+        <!-- Content will be dynamically loaded here -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio Pro</h3>
+                    <p>Solutions créatives et techniques innovantes</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <ul>
+                        <li><a href="#mentions">Mentions légales</a></li>
+                        <li><a href="#privacy">Confidentialité</a></li>
+                        <li><a href="#cookies">Cookies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Réseaux</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio Pro. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script type="module" src="js/main.js"></script>
+    <script src="js/mobile-interactions.js"></script>
+    <script src="js/mobile-restructure.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+/* Lab Terminal Effects */
+.terminal-text {
+  font-family: var(--font-family-mono);
+  color: var(--lab-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid var(--lab-secondary);
+  width: 100%; /* Ensure text is visible by default */
+}

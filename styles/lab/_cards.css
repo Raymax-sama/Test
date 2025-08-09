@@ -1,0 +1,101 @@
+/* Lab Cards */
+.lab-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column for mobile */
+  gap: var(--space-8);
+}
+
+@media (min-width: 600px) {
+  .lab-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Two columns for tablets */
+  }
+}
+
+@media (min-width: 900px) {
+  .lab-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Three columns for desktops */
+  }
+}
+
+.lab-card {
+  background: var(--lab-bg-dark);
+  border: 1px solid var(--lab-primary);
+  border-radius: var(--border-radius);
+  padding: var(--space-6);
+  transition: all var(--transition-base);
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .lab-card {
+    padding: var(--space-4); /* Adjust padding for mobile */
+  }
+
+  .lab-card-title {
+    font-size: var(--font-size-lg); /* Smaller font for mobile */
+  }
+
+  .lab-card-description {
+    font-size: var(--font-size-sm); /* Smaller font for mobile */
+  }
+}
+
+.lab-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 64, 129, 0.1), transparent);
+  transition: left var(--transition-slow);
+}
+
+.lab-card:hover::before {
+  left: 100%;
+}
+
+.lab-card:hover {
+  border-color: var(--lab-secondary);
+  box-shadow: 0 0 20px rgba(255, 64, 129, 0.3);
+  transform: translateY(-5px);
+}
+
+.lab-card-icon {
+  font-size: var(--font-size-2xl);
+  color: var(--lab-primary);
+  margin-bottom: var(--space-4);
+}
+
+.lab-card-title {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--lab-text);
+  margin-bottom: var(--space-3);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.lab-card-description {
+  color: var(--lab-text-dim);
+  margin-bottom: var(--space-4);
+  line-height: 1.6;
+}
+
+.lab-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.lab-tag {
+  background: var(--lab-primary);
+  color: var(--lab-bg);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--border-radius);
+  font-size: var(--font-size-xs);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}

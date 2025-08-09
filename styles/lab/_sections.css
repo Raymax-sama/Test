@@ -1,0 +1,44 @@
+/* Lab Sections */
+.lab-section {
+  padding: var(--space-20) 0;
+  background: var(--lab-bg);
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .lab-section {
+    padding: var(--space-10) 0; /* Adjust padding for mobile */
+  }
+
+  .lab-section-title {
+    font-size: var(--font-size-xl); /* Smaller font for mobile */
+    margin-bottom: var(--space-8); /* Adjust margin for mobile */
+  }
+}
+
+.lab-section:nth-child(even) {
+  background: var(--lab-bg-dark);
+}
+
+.lab-section-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--space-12);
+  color: var(--lab-primary);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.lab-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--lab-primary), var(--lab-secondary));
+  box-shadow: 0 0 10px var(--lab-primary);
+}

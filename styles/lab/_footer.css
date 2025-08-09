@@ -1,0 +1,34 @@
+/* Lab Footer */
+.mode-lab .footer {
+  background: var(--lab-bg-dark);
+  border-top: 1px solid var(--lab-primary);
+}
+
+.mode-lab .footer-section h3,
+.mode-lab .footer-section h4 {
+  color: var(--lab-primary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mode-lab .footer-section ul li a {
+  font-family: var(--font-family-mono);
+  color: var(--lab-text-dim);
+}
+
+.mode-lab .footer-section ul li a:hover {
+  color: var(--lab-primary);
+  text-shadow: 0 0 5px var(--lab-primary);
+}
+
+.mode-lab .social-links a {
+  background: var(--lab-bg);
+  border: 1px solid var(--lab-primary);
+  color: var(--lab-primary);
+}
+
+.mode-lab .social-links a:hover {
+  background: var(--lab-primary);
+  color: var(--lab-bg);
+  box-shadow: 0 0 15px var(--lab-primary);
+}

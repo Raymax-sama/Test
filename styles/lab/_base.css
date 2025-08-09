@@ -1,0 +1,118 @@
+/* Lab Mode Styles - Base */
+.mode-lab {
+  --current-primary: var(--lab-primary);
+  --current-secondary: var(--lab-secondary);
+  --current-accent: var(--lab-accent);
+  --current-bg: var(--lab-bg);
+  --current-text: var(--lab-text);
+  --lab-text-dim: rgba(255, 255, 255, 0.7); /* Define a dimmed text color for Lab mode */
+  
+  font-family: var(--font-family-mono);
+  background: var(--lab-bg);
+  color: var(--lab-text-dim);
+}
+
+.lab-descriptionL {
+  color: black ;
+  transition: all var(--transition-slow);
+}
+
+.mode-lab .header {
+  background: rgba(18, 18, 18, 0.95);
+  border-bottom: 1px solid var(--lab-primary);
+  padding: var(--space-4) var(--space-6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .mode-lab .header {
+    flex-direction: column;
+    padding: var(--space-4);
+    position: relative; /* Ensure absolute positioning context for toggle */
+  }
+
+  .mode-lab .logo {
+    margin-bottom: var(--space-4);
+    width: 100%; /* Ensure logo takes full width for centering */
+    text-align: center; /* Center the logo text */
+    color: var(--current-text); /* Ensure logo text is clearly visible */
+  }
+
+  .mode-lab .main-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mode-lab .nav-link {
+    margin: var(--space-2) 0;
+  }
+
+  .mode-lab .mobile-menu-toggle {
+    display: block;
+    color: var(--lab-text);
+    position: absolute;
+    right: var(--space-4);
+    top: 50%; /* Centrer verticalement */
+    transform: translateY(-50%); /* Ajustement précis du centrage */
+    z-index: 1000;
+  }
+
+  .mode-lab .mobile-menu-toggle span {
+    background: var(--lab-text);
+  }
+
+  .mode-lab .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: var(--header-height, 60px); /* Use a variable for header height if available, or a fixed value */
+    left: 0;
+    background: var(--lab-bg);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-4);
+    z-index: 999;
+  }
+
+  .mode-lab .nav-menu.active {
+    display: flex;
+  }
+}
+
+.mode-lab .logo {
+  color: var(--lab-primary);
+  font-family: var(--font-family-mono);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mode-lab .nav-link {
+  color: var(--lab-text);
+  z-index: 9999; /* Ensure it's on top */
+  opacity: 1; /* Ensure full visibility */
+  font-family: var(--font-family-mono);
+  text-transform: uppercase;
+  font-size: var(--font-size-sm);
+  letter-spacing: 1px;
+}
+
+.mode-lab .nav-link:hover,
+.mode-lab .nav-link.active {
+  color: var(--lab-primary);
+  text-shadow: 0 0 10px var(--lab-primary);
+}
+
+.mode-lab .nav-link::after {
+  background: var(--lab-primary);
+  box-shadow: 0 0 5px var(--lab-primary);
+}
+
+.lab-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-8);
+}
