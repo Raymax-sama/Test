@@ -5,7 +5,7 @@ export default function labHomeTemplate(data) {
                 <div class="lab-intro">
                     <div class="lab-greeting terminal-text">${data.greeting}</div>
                     <h1 class="lab-title">${data.title}</h1>
-                    <p class="lab-descriptionL">${data.description}</p>
+                    <p class="lab-description">${data.description}</p>
                     <pre class="lab-ascii">${data.ascii}</pre>
                     <div class="lab-actions">
                         <a href="#lab-passions" class="lab-btn">Explorer mes passions</a>
